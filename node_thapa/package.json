@@ -1,0 +1,21 @@
+{
+  "name": "node_thapa",
+  "version": "1.0.0",
+  "description": "world best node express",
+  "main": "app.js ",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "Dependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
