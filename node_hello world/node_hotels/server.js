@@ -1,10 +1,11 @@
 const express = require('express')
 const app = express();
 const db = require("./db")
+require("dotenv").config();
 const personRoutes = require("./routes/personRouter")
 const menuRoutes = require("./routes/menuRoutes")
 
-
+ 
 
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
