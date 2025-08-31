@@ -5,7 +5,6 @@ require("dotenv").config();
 const personRoutes = require("./routes/personRouter")
 const menuRoutes = require("./routes/menuRoutes")
 
- 
 
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
@@ -24,16 +23,7 @@ app.use("/menu",menuRoutes)
 
 
 
-
-
-
-
-
-
-
-
-
-app.listen(3000, () => {
-    console.log('listening on port 3000');
-})
-
+const PORT = 8080; 
+app.listen(PORT, () => {
+    console.log("Server is running...");
+});
