@@ -7,12 +7,12 @@ const menuItemSchema = new mongoose.Schema({
     },
     price: {
         type: Number,
-        required: true,
+        required: true
     },
     taste: {
         type: String,
         enum: ['sweet', 'spicy', 'sour'],
-        required: true,
+        required: true
     },
     is_drink:{
         type: Boolean,
@@ -24,7 +24,7 @@ const menuItemSchema = new mongoose.Schema({
     },
     num_sales: {
         type: Number,
-        default: 0,
+        default: 0
     }
 })
 
