@@ -21,6 +21,7 @@ router.post("/", async (req, res) => {
 })
 
 
+
 router.get("/", async (req, res) => {
     try {
         const data = await Person.find();
@@ -31,6 +32,8 @@ router.get("/", async (req, res) => {
         res.status(500).json({ error: "fetching error" })
     }
 })
+
+
 
 // router.get("/:id",async (req,res)=>{
 //     try {
